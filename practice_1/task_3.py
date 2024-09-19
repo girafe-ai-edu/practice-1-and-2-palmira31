@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
 """
 Напишите программу для расчета индекса массы тела (body mass index – 
@@ -5,9 +6,10 @@ BMI) человека. Пользователь должен ввести сво
 используете одну из приведенных ниже формул для определения индекса.
 BMI = вес/рост**2 
 """
-weight = input()
-height = input()
+weight = float(input())
+height = float(input())
 
+print(weight/(height**2))
 
 #Ваш кол
 
